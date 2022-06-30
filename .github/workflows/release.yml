@@ -49,7 +49,7 @@ jobs:
       - name: checkout wkhtmltopdf with submodules
         uses: actions/checkout@v2
         with:
-          repository: wkhtmltopdf/wkhtmltopdf
+          repository: sunaoris/wkhtmltopdf
           path: wkhtmltopdf
           submodules: true
           ref: ${{ github.event.inputs.wkhtmltopdf_ref }}
